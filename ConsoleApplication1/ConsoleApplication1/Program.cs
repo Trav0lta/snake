@@ -10,17 +10,11 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            peint p1 = new peint();
-            p1.x = 1;
-            p1.y = 3;
-            p1.sym = '*';
+            peint p1 = new peint(1, 3, '*');
             p1.Draw();
 
 
-            peint p2 = new peint();
-            p2.x = 4;
-            p2.y = 5;
-            p2.sym = '#';
+            peint p2 = new peint(4, 5, '#');
             p2.Draw();
 
 
