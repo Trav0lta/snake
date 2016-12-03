@@ -31,9 +31,6 @@ namespace ConsoleApplication1
             plist.Add(p3);
         }*/
 
-
-
-
         public void Drow()
         {
             foreach(peint p in plist)

@@ -18,13 +18,15 @@ namespace ConsoleApplication1
 
             peint p2 = new peint(4, 5, '#');
             p2.Draw();
-
+            verticalLine linne = new verticalLine(10, 2, 8, '=');
+            linne.Drow();
             horisontalLine line = new horisontalLine(5, 10, 8, '+');
             line.Drow();
-           
+            
             /*horisontalLine line = new horisontalLine();
             line.Drow();*/
 
+          
             Console.ReadLine();
           }
             
