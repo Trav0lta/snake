@@ -17,6 +17,17 @@ namespace ConsoleApplication1
             peint p2 = new peint(4, 5, '#');
             p2.Draw();
 
+            peint p3 = new peint(2, 4, '*');
+            p3.Draw();
+
+            peint p4 = new peint(3, 5, '#');
+            p4.Draw();
+
+            List<peint> plist = new List<peint>();
+            plist.Add(p1);
+            plist.Add(p2);
+            plist.Add(p3);
+            plist.Add(p4);
 
             Console.ReadLine();
           }
