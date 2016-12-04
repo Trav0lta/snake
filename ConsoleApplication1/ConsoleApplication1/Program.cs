@@ -10,20 +10,26 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            horisontalLine Upline = new horisontalLine(0, 78, 0, '+');
-            horisontalLine Downline = new horisontalLine(0, 78, 24, '+');
-            verticalLine Leftline = new verticalLine(0, 0, 24, '+');
-            verticalLine Rightline = new verticalLine(78, 0, 24, '+');
-            Upline.Drow();
-            Downline.Drow();
-            Leftline.Drow();
-            Rightline.Drow();
-
            
-            peint p1 = new peint(4, 5, '#');
+
+            peint p1 = new peint(1, 3, '*');
             p1.Draw();
 
+
+            peint p2 = new peint(4, 5, '#');
+            p2.Draw();
+            verticalLine linne = new verticalLine(10, 2, 8, '=');
+            linne.Drow();
+            horisontalLine line = new horisontalLine(5, 10, 8, '+');
+            line.Drow();
+            
+            /*horisontalLine line = new horisontalLine();
+            line.Drow();*/
+
+          
             Console.ReadLine();
           }
+            
+
         }
     }
